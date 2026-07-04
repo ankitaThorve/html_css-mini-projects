@@ -10,14 +10,22 @@
 }
 
 /* Header Styling */
-header{
+header {
   background-color: #3f7ac7;
   color: #fff;
   text-align: center;
   padding: 20px;
 }
 
-h1{
+h1 {
   font-size: 36px;
   margin: 0;
 }
+
+/* Content Styling */
+.content {
+  padding: 20px;
+  min-width: 900px;
+  margin: 0 auto;
+}
+
