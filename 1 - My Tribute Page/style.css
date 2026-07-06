@@ -91,3 +91,14 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #3f7ac7;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
