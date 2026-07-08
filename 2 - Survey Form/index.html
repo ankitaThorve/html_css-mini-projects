@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixelita Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Pixelita Survey Form</h1>
+
+    <!-- Create Form -->
+    <form action="" id="form">
+      <!-- Details -->
+      <div class="form-control">
+        <label for="name" id="label-name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+        />
+      </div>
+      <div class="form-control">
+        <label for="email" id="label-email">Email</label>
+        <input type="email" id="email" placeholder="Enter your emailId" />
+      </div>
+      <div class="form-control">
+        <label for="age" id="label-age">Age</label>
+        <input type="text" name="age" id="age" placeholder="Enter your age" />
+      </div>
+      <div class="form-control">
+        <label for="role" id="label-role"
+          >Which option best describes you?</label
+        >
+        <select name="role" id="role">
+          <option value="student">Student</option>
+          <option value="intern">Intern</option>
+          <option value="professional">Professional</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-control">
+        <label for="">Would you recommend Pixelita to a friend?</label>
+        <label for="recommend-1">
+          <input type="radio" name="recommend" id="recommend-1" />Yes
+        </label>
+        <label for="recommend-2">
+          <input type="radio" name="recommend" id="recommend-2" />No
+        </label>
+        <label for="recommend-3">
+          <input type="radio" name="recommend" id="recommend-3" />Maybe
+        </label>
+      </div>
+      <div class="form-control">
+        <label for=""
+          >Languages and Frameworks known
+          <small>(Check all that apply)</small>
+        </label>
+        <label for="inp-1"><input type="checkbox" name="inp" id="" />C</label>
+        <label for="inp-2"><input type="checkbox" name="inp" id="" />C++</label>
+        <label for="inp-3"><input type="checkbox" name="inp" id="" />C#</label>
+        <label for="inp-4"
+          ><input type="checkbox" name="inp" id="" />Java</label
+        >
+        <label for="inp-5"
+          ><input type="checkbox" name="inp" id="" />Python</label
+        >
+        <label for="inp-6"
+          ><input type="checkbox" name="inp" id="" />JavaScript</label
+        >
+        <label for="inp-7"
+          ><input type="checkbox" name="inp" id="" />React</label
+        >
+        <label for="inp-8"
+          ><input type="checkbox" name="inp" id="" />Angular</label
+        >
+        <label for="inp-9"
+          ><input type="checkbox" name="inp" id="" />Django</label
+        >
+        <label for="inp-10"
+          ><input type="checkbox" name="inp" id="" />Spring</label
+        >
+      </div>
+      <div class="form-control">
+        <label for="comment">Any comments or suggestions</label>
+        <textarea
+          name="comment"
+          id="comment"
+          placeholder="Enter your comment here"
+        ></textarea>
+      </div>
+      <!-- Submit button -->
+      <button type="submit" value="submit">Submit</button>
+    </form>
+  </body>
+</html>
