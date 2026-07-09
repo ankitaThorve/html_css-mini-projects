@@ -13,3 +13,9 @@ form {
   padding: 30px 20px;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
 }
+
+/* Styling form control */
+.form-control label{
+  display: block;
+  margin-bottom: 10px;
+}
