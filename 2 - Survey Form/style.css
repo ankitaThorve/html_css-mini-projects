@@ -31,3 +31,10 @@ form {
   display: block;
   width: 95%;
 }
+
+/* Styling radio button and checkbox */
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
