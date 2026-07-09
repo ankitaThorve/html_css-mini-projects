@@ -21,6 +21,7 @@ form {
   display: block;
   margin-top: 20px;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 /* Styling .form-control input, select, textarea */
@@ -43,8 +44,8 @@ form {
 }
 
 /* Styling button */
-button{
-  background-color:#7a4854;
+button {
+  background-color: #7a4854;
   color: #f4edda;
   border: 2px solid #42292f;
   border-radius: 2px;
