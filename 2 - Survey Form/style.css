@@ -22,6 +22,7 @@ form {
   margin-top: 20px;
   margin-bottom: 10px;
   text-align: left;
+  /* float: left; */
 }
 
 /* Styling .form-control input, select, textarea */
